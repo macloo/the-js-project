@@ -80,6 +80,12 @@ div.clicker {
 /* media queries */
 
 @media (max-width: 920px) {
+    h1 {
+        font-size: 4em;
+    }
+    p {
+        padding: 0.5em 1em;
+    }
     .w400 {
         margin: 0 auto;
     }
