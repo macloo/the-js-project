@@ -53,8 +53,8 @@ button {
     text-decoration: none;
     margin-top: 1em;
 }
-button:hover {
-    border-radius: 28px;
+button:hover, button:active {
+    border-radius: 28px !important;
     background: #fff;
     color: #333;
     text-decoration: none;
