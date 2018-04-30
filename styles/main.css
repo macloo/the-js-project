@@ -52,7 +52,6 @@ button {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-top: 1em;
-    overflow: hidden;
 }
 button:hover {
     background: #fff;
@@ -61,8 +60,9 @@ button:hover {
     cursor: pointer;
 }
 button:link, button:visited, button:hover, button:active {
-    border-radius: 28px !important;
+    border-radius: 28px;
     overflow: hidden;
+    background-clip: padding-box;
 }
 div.clicker {
     position: relative;
