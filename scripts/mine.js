@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
     $('#fullpage').fullpage({
-        sectionsColor: ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3", "#fdb462", "#b3de69", "#fccde5", "#bc80bd", "#ccebc5", "#ffed6f", "#8dd3c7"],
+        sectionsColor: ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3", "#fdb462", "#b3de69", "#fccde5", "#bc80bd", "#ffed6f", "#ccebc5", "#ffffb3", "#8dd3c7"],
         navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Top page', 'Strings and Variables', '2', '3', '4', '5', '6', '7', 'Using Numbers', '9', '10']
+		navigationTooltips: ['Top page', 'Strings and Variables', '2', '3', '4', '5', '6', '7', 'Using Numbers', '2', '3', '4', '5']
     });
 
     $(".followup").hide();
