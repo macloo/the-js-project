@@ -56,7 +56,7 @@ button {
 button:link, button:visited, button:hover, button:active {
     border-radius: 28px !important;
 }
-button:hover, button:active {
+button:hover {
     background: #fff;
     color: #333;
     text-decoration: none;
