@@ -8,7 +8,7 @@ I got a palette for the pages from [Every ColorBrewer Scale](https://bl.ocks.org
 
 The hinge/hide animation effect was adapted from [this fiddle](http://jsfiddle.net/TFfGL/117/).
 
-The idea was to offer a mild and simple intro to exploring JavaScript in the console. I teach students for whom JavaScript is their first-ever programming language, and it's a little hard to get them to really play around in the console. This comes back to bite them later because their understanding of the most basic basics is faulty or weak.
+The idea was to offer a mild and simple intro to exploring JavaScript in the console. I teach students for whom JavaScript is their first-ever programming language, and it's a little hard to get them to really play around in the console. This *comes back to bite them later* because their understanding of the most basic basics is faulty or weak.
 
 ![Screenshot of JavaScript console](images/fullscreenshot.png)
 
