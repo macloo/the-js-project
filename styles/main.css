@@ -1,0 +1,89 @@
+body {
+    font-family: 'Cuprum', 'Arial', sans-serif;
+    color: #333;
+}
+h1, h2 {
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    box-sizing: border-box;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+ul {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+li {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-left: 1em;
+}
+code {
+    font-family: monospace;
+    font-size: 1em;
+}
+label {
+    font-weight: bold;
+}
+.w400 {
+    max-width: 400px;
+    display: block;
+    margin: 1em auto;
+}
+button {
+    display: block;
+    margin: auto;
+    background: #666;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 1em;
+}
+button:hover {
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+}
+div.clicker {
+    position: relative;
+}
+
+/* ANIMATION CLASSES for the HINGE effect */
+
+.css-transition {-webkit-transition:all 0.8s ease-in-out; -moz-transition:all 0.8s ease-in-out; -o-transition:all 0.8s ease-in-out; -ms-transition:all 0.8s ease-in-out; transition:all 0.8s ease-in-out;}
+
+@-webkit-keyframes hinge{0%{-webkit-transform:rotate(0);-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out}40%{-webkit-transform:rotate(60deg);-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out}80%{-webkit-transform:rotate(60deg) translateY(0);opacity:1;-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out}100%{-webkit-transform:translateY(700px);opacity:0}}
+@-moz-keyframes hinge{0%{-moz-transform:rotate(0);-moz-transform-origin:top left;-moz-animation-timing-function:ease-in-out}20%,60%{-moz-transform:rotate(80deg);-moz-transform-origin:top left;-moz-animation-timing-function:ease-in-out}40%{-moz-transform:rotate(60deg);-moz-transform-origin:top left;-moz-animation-timing-function:ease-in-out}80%{-moz-transform:rotate(60deg) translateY(0);opacity:1;-moz-transform-origin:top left;-moz-animation-timing-function:ease-in-out}100%{-moz-transform:translateY(700px);opacity:0}}
+@-o-keyframes hinge{0%{-o-transform:rotate(0);-o-transform-origin:top left;-o-animation-timing-function:ease-in-out}20%,60%{-o-transform:rotate(80deg);-o-transform-origin:top left;-o-animation-timing-function:ease-in-out}40%{-o-transform:rotate(60deg);-o-transform-origin:top left;-o-animation-timing-function:ease-in-out}80%{-o-transform:rotate(60deg) translateY(0);opacity:1;-o-transform-origin:top left;-o-animation-timing-function:ease-in-out}100%{-o-transform:translateY(700px);opacity:0}}
+@keyframes hinge{0%{transform:rotate(0);transform-origin:top left;animation-timing-function:ease-in-out}20%,60%{transform:rotate(80deg);transform-origin:top left;animation-timing-function:ease-in-out}40%{transform:rotate(60deg);transform-origin:top left;animation-timing-function:ease-in-out}80%{transform:rotate(60deg) translateY(0);opacity:1;transform-origin:top left;animation-timing-function:ease-in-out}100%{transform:translateY(700px);opacity:0}}
+
+.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s}
+
+.hinge{-webkit-animation-name:hinge;-moz-animation-name:hinge;-o-animation-name:hinge;animation-name:hinge}
+
+/* media queries */
+
+@media (max-width: 920px) {
+    .w400 {
+        margin: 0 auto;
+    }
+    input[type='text'] {
+        display: block;
+    }
+}

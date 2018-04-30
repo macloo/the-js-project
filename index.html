@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> The JavaScript Project </title>
+    <link rel="stylesheet" href="styles/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section">
+        <h1>JavaScript in the Console</h1>
+        <p>These exercises will familiarize you with writing JavaScript, using the console. Open it now. Google <em>open javascript console</em> if you don’t know how.</p>
+        <p>Let’s get started! Scroll to continue ...</p>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <p>Type this into the console, then press Enter/Return:</p>
+            <p><code>console.log("learning javascript");</code></p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>You <em>logged</em> the string <code>"learning javascript"</code> to the JavaScript console &mdash; so, below the statement you entered, that string was written, without quotes. Below <em>that,</em> the value <code>undefined</code> was written. Let’s not worry about <code>undefined</code> yet. You’ll see it every time you use <code>console.log()</code>.</p>
+            <p><code>console.log</code> means write it out, in the console.</p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <p>Type this into the console, then press Enter/Return:</p>
+            <p><code>let goal = "learning javascript";</code></p>
+            <p>Next, type this into the console, then press Enter/Return:</p>
+            <p><code>console.log(goal);</code></p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>You made a <em>variable</em>&#8201;! <code>let</code> is a JavaScript keyword, signaling that a new variable is being created. <code>goal</code> is the <em>variable name</em> in this case. The <em>value</em> of the variable comes after the equals sign &mdash; you <em>assigned</em> the value <code>"learning javascript"</code> to the variable <code>goal</code>.</p>
+            <p>Then you used the <code>console.log()</code> command to write the value of the variable.</p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <ul>
+                <li>Use the <code>let</code> keyword and create a new variable.</li>
+                <li>Put the equals sign after the variable name.</li>
+                <li>On the right side of the equals sign, write a new string. You must put a string inside quotation marks!</li>
+                <li>Press Enter/Return.</li>
+                <li>Use <code>console.log();</code> to write the value.</li>
+            </ul>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>Did you get any error messages in the console? One of the benefits of practicing JavaScript in the console is that you get instant feedback. Type it over again until you get it right. You're training your mind as well as your fingers.</p>
+            <p>Make some more variables with string values. What happens if you try to assign a different value to the same variable?</p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="clicker">
+            <p>You should be typing JavaScript and trying it out in the console while you’re scrolling through. Now look at a console example &mdash; yours should look similar!</p>
+            <button>SEE IT!</button>
+        </div>
+        <div class="followup">
+            <img class="w400" src="images/console01.png" alt="JavaScript console">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <p>You might not have tried one of the things shown in that screenshot: merging two strings together. Let’s do it now!</p>
+            <p><code>let goal2 = "eat more";</code><br>
+                <code>let food = "healthy food";</code><br>
+                <code>console.log(goal2 + " " + food);</code></p>
+            <p>Press Enter/Return after each line.</p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>Using the plus sign to join strings together is called <em>concatenation.</em> It's an easy way to plug variables into a sentence, like <code>Hello, _____. Today's weather is _____.</code></p>
+            <p>Go ahead &mdash; try to make that sentence with two variables.</p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <img class="w400" src="images/console02.png" alt="JavaScript console">
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>Right there, telling Mary Poppins the weather, you have a core tool for programming a web app. By getting <em>values</em> from <em>variables,</em> we make a web page customizable. Try it and see!</p>
+            <p><label for="theName">Your name</label> <input type="text" name="theName" id="theName"></p>
+            <p><label for="weather">Today’s weather</label> <input type="text" name="weather" id="weather"></p>
+            <button id="weatherBut">SUBMIT VALUES</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Strings and Variables</h2>
+        <div class="clicker">
+            <p id="fillWeather">Well, it seems you did not type anything on the previous page, or you forgot to press the “Submit Values” button. Scroll back and try it!</p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>Was that cool? I think it’s very cool!</p>
+            <p>Did you notice that your values were logged to the console too? Usually we do not use <code>console.log();</code> when we’re using JavaScript to collect and use values in web apps, but the console can still be useful for testing things and seeing error messages.</p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Using Numbers</h2>
+        <div class="clicker">
+            <p>We will continue using the console to see how numbers work in JavaScript. We won’t do any high-level math, just some simple arithmetic. Type these, followed by Return/Enter for each.</p>
+            <p><code>5 + 5</code><br>
+                <code>15 - 5</code><br>
+                <code>10 * 5</code><br>
+                <code>100 / 10</code></p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <img class="w400" src="images/console03.png" alt="JavaScript console">
+            <p>No surprises there, right? Okay, but &mdash; this one may surprise you (type it and see):<code> 20 + 2 * 10</code></p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Using Numbers</h2>
+        <div class="clicker">
+            <img class="w400" src="images/console04.png" alt="JavaScript console">
+            <p>You probably learned PEMDAS in school: the order of operations. JavaScript follows it strictly, so anything inside parentheses (P) is executed first. Then exponents (E), followed by multiplication/division (MD), followed by addition/subtraction (AS).</p>
+            <button>DONE!</button>
+        </div>
+        <div class="followup">
+            <p>Try some math with and without parentheses in the console. If you’re curious about exponents, try some of these:</p>
+            <p><code>2**4</code><br>
+                <code>8**2</code><br>
+                <code>10**10</code></p>
+            <p>Scroll to continue.</p>
+        </div>
+    </div>
+
+    <div class="section"><h1>Some Section</h1></div>
+    <div class="section"><h1>Some Section</h1></div>
+</div>
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.fullpage.min.js"></script>
+<script src="scripts/mine.js"></script>
+</body>
+</html>
