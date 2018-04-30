@@ -45,8 +45,6 @@ button {
     display: block;
     margin: auto;
     background: #666;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
     border-radius: 28px;
     color: #fff;
     font-size: 1.2em;
@@ -56,8 +54,6 @@ button {
     margin-top: 1em;
 }
 button:hover {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
     border-radius: 28px;
     background: #fff;
     color: #333;
