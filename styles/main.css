@@ -56,12 +56,13 @@ button {
     margin-top: 1em;
 }
 button:hover {
-    background: #fff;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
+    background: #fff;
     color: #333;
     text-decoration: none;
+    cursor: pointer;
 }
 div.clicker {
     position: relative;
