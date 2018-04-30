@@ -13,3 +13,5 @@ The idea was to offer a mild and simple intro to exploring JavaScript in the con
 ![Screenshot of JavaScript console](images/fullscreenshot.png)
 
 So I thought if I could get them to open the console side-by-side with some targeted instructions, it might encourage them to spend more time playing and getting to know how code works at the basic level.
+
+Of course I want to get students putting JavaScript *together with HTML* as soon as possible, but I feel strongly that learning about **variables, operators, Booleans,** and **arrays** is better done in the console, interactively and with low stakes as far as errors are concerned.
